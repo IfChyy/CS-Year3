@@ -10,7 +10,7 @@ $userame = $_POST["name"];
 $password = $_POST["password"];
 
 if($userame == "username" && $password == "password"){
-    setcoockie('access_level_cookie', 'standarduser');
+    setcookie('access_level_cookie', 'standarduser');
 }
 
 header('Location: loggedIn.php');
