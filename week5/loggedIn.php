@@ -11,13 +11,13 @@ $accesslevel  = $_COOKIE['access_level_cookie'];
 
 displayAccessLevelInformation($accesslevel);
 
-function displayAccessLevelInformation($accesslevel){
+function displayAccessLevelInformation($accessLevel){
 
-    if($accesslevel == "standartuser"){
+    if($accessLevel == "standarduser"){
         echo "<p style = \"backgroud-color: lightgreen\">You are currently
     logged in as a standart user</p>";
 
-    }elseif ($accesslevel == "root"){
+    }elseif ($accessLevel == "root"){
         echo "<p style = \"backgroud-color: red\">You are currently
     logged in as a root user</p>";
         echo "<p style = \"backgroud-color: red\">You now have access
