@@ -5,6 +5,7 @@
  * Date: 10/10/2016
  * Time: 22:26
  */
+include("DBCONNECT.php");
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,7 @@
         <p>ajskflakldsklfas;df</p>
         <?php
         //Including the database for further usage
-        include("DBCONNECT.php");
+
 
         //The SQL query to show all movies
         $sql = "SELECT * FROM marvelmovies";
