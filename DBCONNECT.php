@@ -6,10 +6,10 @@
  * Time: 16:20
  */
 
-define('DB_SERVER'. 'servername');
-define('DB_USERNAME'. 'username');
-define('DB_PASSWORD'. 'password');
-define('DB_DATABASE'. 'database');
+define('DB_SERVER'. 'eu-cdbr-azure-west-a.cloudapp.net');
+define('DB_USERNAME'. 'b6e9aa1b391bb0');
+define('DB_PASSWORD'. '42f2d8ac');
+define('DB_DATABASE'. 'ijos_database');
 
 $db = mysql_connect(DB_SERVER,
     DB_USERNAME, DB2_PASSWORD,
