@@ -18,13 +18,14 @@
         <?php
         //Including the database for further usage
         include("DBCONNECT.php");
-
+/*
         $db = new mysqli(
             'eu-cdbr-azure-west-a.cloudapp.net',
             'b6e9aa1b391bb0',
             '42f2d8ac',
             'ijos_database'
         );
+*/
 
         //The SQL query to show all movies
         $sql = "SELECT * FROM marvelmovies";
@@ -35,7 +36,7 @@
         //Processing the result
         while($row = $result->fetch_array()){
             echo "$row[yearReleased] -- $row[title] -- $row[productionStudio] -- $row[notes]";
-            echo "";
+            echo "<br>";
         }
 
         ?>

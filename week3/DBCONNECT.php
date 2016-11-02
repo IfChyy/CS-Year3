@@ -15,7 +15,7 @@ $db = mysqli_connect(DB_SERVER,
     DB_USERNAME, DB_PASSWORD,
     DB_DATABASE);
 
-/*$db = new mysqli(
+$db = new mysqli(
     'eu-cdbr-azure-west-a.cloudapp.net',
     'b6e9aa1b391bb0',
     '42f2d8ac',
@@ -25,7 +25,7 @@ $db = mysqli_connect(DB_SERVER,
 if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
 }
-*/
+
 
 
 ?>
