@@ -12,7 +12,7 @@ define('DB_PASSWORD'. '42f2d8ac');
 define('DB_DATABASE'. 'ijos_database');
 
 $db = mysqli_connect(DB_SERVER,
-    DB_USERNAME, DB2_PASSWORD,
+    DB_USERNAME, DB_PASSWORD,
     DB_DATABASE);
 
 /*$db = new mysqli(
