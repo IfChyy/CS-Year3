@@ -20,7 +20,7 @@
         include("DBCONNECT.php");
 
         //The SQL query to show all movies
-        $sql_query = "SELECT * FROM marvelmovies";
+        $sql_query = "SELECT * FROM marvelmovies WHERE yearReleased IS 1944";
 
         //Collecting the result of the query
         $result = $db->query($sql_query);
