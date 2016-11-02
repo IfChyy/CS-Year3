@@ -11,11 +11,11 @@ define('DB_USERNAME'. 'b6e9aa1b391bb0');
 define('DB_PASSWORD'. '42f2d8ac');
 define('DB_DATABASE'. 'ijos_database');
 
-$db = mysql_connect(DB_SERVER,
+$db = mysqli_connect(DB_SERVER,
     DB_USERNAME, DB2_PASSWORD,
     DB_DATABASE);
 
-$db = new mysqli(
+/*$db = new mysqli(
     'eu-cdbr-azure-west-a.cloudapp.net',
     'b6e9aa1b391bb0',
     '42f2d8ac',
@@ -25,7 +25,7 @@ $db = new mysqli(
 if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
 }
-
+*/
 
 
 ?>
