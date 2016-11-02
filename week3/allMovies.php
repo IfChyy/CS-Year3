@@ -17,7 +17,7 @@
 
         <?php
         //Including the database for further usage
-        include("dbConnect.php");
+        include("DBCONNECT.php");
 
         //The SQL query to show all movies
         $sql_query = "SELECT * FROM marvelmovies";
