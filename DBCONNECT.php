@@ -21,9 +21,25 @@ $db = new mysqli(
     '42f2d8ac',
     'ijos_database'
 );
-
+//test to see if connection is established
 if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
 }
 
+
+
+//create sql querry
+$sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%aser%'";
+//execute SQL querry
+$result = $db->query($sql_query);
+
+//iterate over result and fetche array
+while($row = $result->fetch_array()){
+    //proccess the roll
+    echo '<p>'.$row['superheroName'].'</p>';
+}
+
+$result->close();
+//close connection to the database
+$db->close();
 ?>
