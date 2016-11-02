@@ -6,6 +6,7 @@
  * Time: 16:54
  */
 
+include("DBCONNECT.php");
 
 //create sql querry
 $sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%aser%'";
