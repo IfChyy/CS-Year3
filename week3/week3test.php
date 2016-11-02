@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 
 <body>
@@ -14,7 +14,7 @@ $result = $db->query($sql_query);
 //iterate over result and fetche array
 while($row = $result->fetch_array()){
     //proccess the roll
-    echo '<p>'.$row['title'].'</p>';
+    echo "<p> -- $row[title] -- </p>";
 }
 
 /*$result->close();
