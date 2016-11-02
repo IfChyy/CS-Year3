@@ -5,7 +5,13 @@
  * Date: 2.11.2016 г.
  * Time: 16:54
  */
+?>
 
+<html>
+
+<body>
+
+<?php
 include("DBCONNECT.php");
 
 //create sql querry
@@ -24,3 +30,9 @@ while($row = $result->fetch_array()){
 $db->close();*/
 
 ?>
+</body>
+
+
+</html>
+
+
