@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: azifchyy
- * Date: 2.11.2016 г.
- * Time: 16:54
- */
-?>
 
 <html>
 
@@ -15,7 +7,7 @@
 include("DBCONNECT.php");
 
 //create sql querry
-$sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%aser%'";
+$sql_query = "SELECT * FROM marvelmovies";
 //execute SQL querry
 $result = $db->query($sql_query);
 
