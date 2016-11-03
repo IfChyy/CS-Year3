@@ -10,7 +10,7 @@ $result = $db->query($sql_query);
 //iterate over result and fetche array
 while($row = $result->fetch_array()){
     //proccess the roll
-    echo "<p> -- $row[title] -- </p>";
+    echo "<p> $row[yearReleased] , $row[title], $row[productionStudio] </p>";
 }
 
 /*$result->close();
