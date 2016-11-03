@@ -8,11 +8,11 @@
 
 include("DBCONNECT.php");
 
-$sql_query = "SELECT * FROM marvelmovies WHERE productionStudios LIKE Marvel Studios";
+$sql_query = "SELECT * FROM marvelmovies ";
 
 $result = $db->query($sql_query);
 
 while($row = $result->fetch_array()){
-    echo "<p>  $row[yearReleased] , $row[title], $row[productionStudio]  </p>";
+echo "<p>  $row[yearReleased] , $row[title], $row[productionStudio]  </p>";
 }
 ?>
