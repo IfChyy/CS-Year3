@@ -8,7 +8,7 @@
 
 include("DBCONNECT.php");
 
-$sql_query = "SELECT * FROM `marvelmovies` WHERE `productionStudios` = 'Marvel Studios'";
+$sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = 'Marvel Studios'";
 
 $result = $db->query($sql_query);
 
