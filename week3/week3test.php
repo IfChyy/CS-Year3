@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<body>
 
 <?php
 include("DBCONNECT.php");
@@ -22,9 +18,3 @@ while($row = $result->fetch_array()){
 $db->close();*/
 
 ?>
-</body>
-
-
-</html>
-
-
