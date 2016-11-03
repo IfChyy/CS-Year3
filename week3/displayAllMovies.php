@@ -12,7 +12,7 @@ $sql_query = "Select * from marvelmovies";
 $result = $db->query($sql_query);
 
 while($row = $result->fetch_array()){
-    echo "<p>". $row[marvelMoviesID] . "</p>";
+    echo "<p> -- $row[title] -- </p>";
 }
 
 ?>
