@@ -8,7 +8,7 @@
 
 include("DBCONNECT.php");
 
-$sql_query = "SELECT * FROM marvelmovies WHERE productionStudios LIKE %Marvel Studios%";
+$sql_query = "SELECT * FROM marvelmovies WHERE productionStudios LIKE 'Marvel Studios'";
 
 $result = $db->query($sql_query);
 
