@@ -14,8 +14,8 @@ $forename = $_POST["forename"];
 $surname = $_POST["surname"];
 $superheropower = $_POST["superheropower"];
 
-$sql = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
- VALUES ('forename', 'surname', 'superheropower')";
+$sql = "INSERT INTO superheros (, firstname, lastname, mainSuperpower)
+ VALUES (,'$forename', '$surname', '$superheropower')";
 
 if(mysqli_query($db, $sql)){
 
