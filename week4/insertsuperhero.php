@@ -10,12 +10,12 @@
 
 include("DBCONNECT.php");
 
-$forename = $_POST["forename"];
-$surname = $_POST["surname"];
-$superheropower = $_POST["superheropower"];
+$firstname = $_POST["firstname"];
+$lastname = $_POST["lastname"];
+$mainSuperpower = $_POST["mainSuperpower"];
 
-$sql = "INSERT INTO superheros (, firstname, lastname, mainSuperpower)
- VALUES (,'$forename', '$surname', '$superheropower')";
+$sql = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
+ VALUES ('$firstname', '$lastname', '$mainSuperpower')";
 
 if(mysqli_query($db, $sql)){
 
