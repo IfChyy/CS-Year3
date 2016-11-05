@@ -1,3 +1,12 @@
+<!DOCTYPE HTML>
+<head>
+
+</head>
+<body>
+
+</body>
+
+
 <?php
 /**
  * Created by PhpStorm.
@@ -8,5 +17,5 @@
 
 $username = $_GET["username"];
 
-echo $username;
+echo "Hello" . $username;
 ?>
