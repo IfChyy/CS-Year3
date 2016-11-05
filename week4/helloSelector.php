@@ -8,8 +8,12 @@
 
 <ul>
     <li>
-        <a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=earth">Earth</a>
+        <a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=Earth">Earth</a>
+
     </li>
+
+    <li><a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=Uranus">you'r anus</a></li>
+    <li><a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=Mars">Mars</a></li>
 </ul>
 
 

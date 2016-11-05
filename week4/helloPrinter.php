@@ -17,5 +17,5 @@
 
 $username = $_GET["username"];
 
-echo "Hello" . $username;
+echo "Hello " . $username;
 ?>
