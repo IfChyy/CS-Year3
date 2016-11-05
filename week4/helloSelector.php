@@ -14,17 +14,22 @@
 
     <li><a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=Uranus">you'r anus</a></li>
     <li><a href="http://cs-year3.azurewebsites.net/week4/helloPrinter.php?username=Mars">Mars</a></li>
+
+    <br>
+    <form action="formResponse.php" method="post">
+        <label>Forename</label><input type=“text” name=“forename”>
+        <label>Surname</label><input type=“text” name=“surname”>
+        <input type="submit" value="Submit">
+    </form>
 </ul>
 
 
 <?php
-/**
- * Created by PhpStorm.
- * User: azifchyy
- * Date: 5.11.2016 г.
- * Time: 17:09
- */
 
+$forename = $_POST["forename"];
+$surname = $_POST["surname"];
+
+echo $forename . $surname;
 
 
 ?>
