@@ -12,7 +12,7 @@ $sql_querry = "SELECT * FROM superheros";
 $result = $db->query($sql_querry);
 
 while($row = $result->fetch_array()){
-    echo "<p> $row[superheroID], $row[firstname], $row[surname], $row[mainSuperpower] </p>";
+    echo "<p> $row[superheroID], $row[firstname], $row[lastname], $row[mainSuperpower] </p>";
 };
 
 ?>
