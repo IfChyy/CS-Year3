@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: azifchyy
- * Date: 7.11.2016 г.
- * Time: 17:15
- */
-
 include("DBCONNECT.php");
 
 $dom = new DOMDocument("1.0");
