@@ -1,9 +1,10 @@
 <?php
+
 include("DBCONNECT.php");
 
 $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
-$parnode = $dom->appendChild($node);
+$parentnode = $dom->appendChild($node);
 
 
 $query = "SELECT * FROM markers";
