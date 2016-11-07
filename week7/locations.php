@@ -5,6 +5,9 @@
  * Date: 7.11.2016 г.
  * Time: 17:15
  */
+
+include("DBCONNECT.php");
+
 $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
 $parnode = $dom->appendChild($node);
