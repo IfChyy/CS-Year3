@@ -24,9 +24,6 @@ while ($row = $result->fetch_array()){
     $newnode->setAttribute("type", $row['type']);
 }
 
-$result->close();
-$db->close();
-
 echo $dom->saveXML();
 
 ?>
