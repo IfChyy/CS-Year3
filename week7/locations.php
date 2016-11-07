@@ -17,7 +17,7 @@ header("Content-type: text/xml");
 
 while ($row = $result->fetch_array()){
     $node = $dom->createElement("marker");
-    $newnode = $parnode->appendChild($node);
+    $newnode = $parentnode->appendChild($node);
     $newnode->setAttribute("name",$row['name']);
     $newnode->setAttribute("address", $row['address']);
     $newnode->setAttribute("lat", $row['lat']);
