@@ -1,7 +1,5 @@
 <?php
-
 include("DBCONNECT.php");
-
 // Start XML file, create parent node
 $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
@@ -26,5 +24,5 @@ while ($row = $result->fetch_array()){
 $result->close();
 $db->close();
 echo $dom->saveXML();
-?>
 
+?>
