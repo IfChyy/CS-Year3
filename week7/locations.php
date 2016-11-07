@@ -13,7 +13,7 @@ $node = $dom->createElement("markers");
 $parnode = $dom->appendChild($node);
 
 
-$query = "SELECT * FROM markers WHERE 1";
+$query = "SELECT * FROM markers";
 $result = $db->query($query);
 if (!$result) {
     die('Nothing in result: ');
